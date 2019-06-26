@@ -138,7 +138,7 @@ else
 		rm -f $PROTOC_ZIP
 		echo "protoc is installed to /usr/local/bin/"
 	else
-		brew install protobuf
+		brew install protobuf@3.6
 	fi
 fi
 
